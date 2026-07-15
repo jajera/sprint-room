@@ -8,7 +8,9 @@ Day 2: Build a multiplayer workspace for agents and humans
 
 Silent product demo focused on the live Sprint Room.
 
-Compiled: [`captures/day-02-multiplayer-workspace-demo.mp4`](captures/day-02-multiplayer-workspace-demo.mp4)
+Published: [https://youtu.be/zbW7rzgpdpo](https://youtu.be/zbW7rzgpdpo)
+
+Compiled locally: [`captures/day-02-multiplayer-workspace-demo.mp4`](captures/day-02-multiplayer-workspace-demo.mp4)
 
 ```bash
 cd docs/birthday-2026/day-02-validation/captures && python3 build-demo.py

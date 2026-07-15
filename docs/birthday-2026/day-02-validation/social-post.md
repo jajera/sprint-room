@@ -1,5 +1,9 @@
 # Day 2 — Social post
 
+## Published post
+
+<https://www.linkedin.com/posts/john-ajera_kiro-birthday-week-day-2-multiplayer-workspace-share-7483030275602558977-78vY/>
+
 ## Post copy
 
 ```text
@@ -7,9 +11,8 @@ Day 2 of Kiro Birthday Week: Build a multiplayer workspace for agents and humans
 
 Sprint Room — humans + Sprint AI in one shared planning session. Presence, notes, clarifications, and plan packets sync live.
 
-Repo: <replace-with-repo-url>
-Demo: <replace-with-demo-url>
-Day 2 pack: <replace-with-day2-folder-url>
+Repo: https://github.com/jajera/sprint-room
+Demo: https://youtu.be/zbW7rzgpdpo
 
 #BuildWithKiro #TeamKiro @kirodotdev
 ```
