@@ -1,0 +1,5 @@
+{
+  "name": "sprint-room",
+  "main": "src/server/room.server.ts",
+  "compatibilityDate": "2024-01-01"
+}

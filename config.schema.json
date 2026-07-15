@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/md-practice/config.schema.json",
+  "title": "Markdown Practice Config",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "mode": { "enum": ["check", "fix"] },
+    "files": { "enum": ["staged", "all"] },
+    "include": { "type": "array", "items": { "type": "string" } },
+    "exclude": { "type": "array", "items": { "type": "string" } },
+    "failFast": { "type": "boolean" },
+    "rules": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "trailing-whitespace": { "$ref": "#/$defs/rule" },
+        "consecutive-blank-lines": { "$ref": "#/$defs/rule" },
+        "blanks-around-headings": { "$ref": "#/$defs/rule" },
+        "blanks-around-fences": { "$ref": "#/$defs/rule" },
+        "heading-increment": { "$ref": "#/$defs/rule" },
+        "single-h1": { "$ref": "#/$defs/rule" },
+        "line-length": { "$ref": "#/$defs/rule" },
+        "list-marker-style": { "$ref": "#/$defs/rule" },
+        "table-column-style": { "$ref": "#/$defs/rule" },
+        "table-column-count": { "$ref": "#/$defs/rule" },
+        "no-bare-urls": { "$ref": "#/$defs/rule" },
+        "fenced-code-language": { "$ref": "#/$defs/rule" }
+      }
+    }
+  },
+  "$defs": {
+    "rule": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "severity": { "enum": ["error", "warning", "off"] },
+        "fix": { "type": "boolean" },
+        "options": { "type": "object" }
+      }
+    }
+  }
+}
