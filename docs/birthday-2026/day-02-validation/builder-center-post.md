@@ -47,7 +47,9 @@ Specs under `.kiro/specs/sprint-room/` and steering under `.kiro/steering/` kept
 
 ### Demo
 
-Silent walkthrough: [`captures/day-02-multiplayer-workspace-demo.mp4`](captures/day-02-multiplayer-workspace-demo.mp4)
+Silent walkthrough: [https://youtu.be/zbW7rzgpdpo](https://youtu.be/zbW7rzgpdpo)
+
+Local MP4 (rebuild source): [`captures/day-02-multiplayer-workspace-demo.mp4`](captures/day-02-multiplayer-workspace-demo.mp4)
 
 Rebuild:
 
@@ -56,6 +58,8 @@ cd docs/birthday-2026/day-02-validation/captures && python3 build-demo.py
 ```
 
 ### Try it
+
+Repo: <https://github.com/jajera/sprint-room>
 
 ```bash
 npm run partykit:dev   # terminal 1
