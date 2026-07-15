@@ -14,11 +14,11 @@ Sprint Room
 
 ## Repository URL
 
-`<replace-with-repo-url>`
+<https://github.com/jajera/sprint-room>
 
 ## Short Description
 
-For Day 2 I built Sprint Room — a multiplayer workspace where humans and Sprint AI plan together in one shared room. Presence, collaborative notes, clarifications, and AI plan packets sync live over PartyKit/Yjs, with Kiro specs, steering, and Agent Hooks driving the build.
+For Day 2 I built Sprint Room — a multiplayer workspace where humans and Sprint AI plan together in one shared room. Presence, collaborative notes, clarifications, and AI plan packets sync live over PartyKit/Yjs, with Kiro specs and steering driving the build.
 
 ## How Kiro Was Used
 
@@ -26,11 +26,11 @@ I used Kiro’s spec workflow (requirements → design → tasks) for Sprint Roo
 
 ## Demo Video URL
 
-`<replace-with-demo-video-url>`
+<https://youtu.be/zbW7rzgpdpo>
 
 ## Social Post URL
 
-`<replace-with-social-post-url>`
+<https://www.linkedin.com/posts/john-ajera_kiro-birthday-week-day-2-multiplayer-workspace-share-7483030275602558977-78vY/>
 
 ## Builder Center Article URL
 

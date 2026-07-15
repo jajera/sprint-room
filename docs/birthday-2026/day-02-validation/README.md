@@ -26,7 +26,8 @@ A multiplayer Sprint Room (Vite + PartyKit + Yjs + TipTap) with:
 | [social-post.md](social-post.md) | Social post draft with tags |
 | [video-slideshow.md](video-slideshow.md) | Smoke runbook + silent demo script |
 | [captures/](captures/) | Live room stills (John → Zack → inputs → top/bottom) + rebuild script |
-| [Demo MP4](captures/day-02-multiplayer-workspace-demo.mp4) | Silent product walkthrough (~60s) |
+| [Demo video](https://youtu.be/zbW7rzgpdpo) | Silent product walkthrough on YouTube |
+| [Demo MP4](captures/day-02-multiplayer-workspace-demo.mp4) | Local rebuild source (~60s) |
 
 ## Rebuild demo
 
@@ -36,8 +37,8 @@ cd docs/birthday-2026/day-02-validation/captures && python3 build-demo.py
 
 ## Submission Checklist
 
-- Public repository URL ready
+- Public repository: <https://github.com/jajera/sprint-room>
 - `.kiro/` folder present
-- 30s to 3m demo video prepared
-- Social post includes `#BuildWithKiro` and `#TeamKiro` with `@kirodotdev`
-- Form / social / article drafts updated with final links
+- Demo video: <https://youtu.be/zbW7rzgpdpo>
+- Social post: <https://www.linkedin.com/posts/john-ajera_kiro-birthday-week-day-2-multiplayer-workspace-share-7483030275602558977-78vY/>
+- Builder Center article URL still needed (`form-submission.md`)
