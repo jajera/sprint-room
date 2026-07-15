@@ -1,0 +1,52 @@
+{
+  "name": "sprint-room",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "partykit:dev": "node scripts/with-aws-profile.mjs partykit dev",
+    "partykit:deploy": "node scripts/with-aws-profile.mjs partykit deploy",
+    "test": "vitest --run",
+    "test:watch": "vitest",
+    "md-practice": "node scripts/md-practice.mjs",
+    "md-practice:check": "node scripts/md-practice.mjs --check",
+    "md-practice:fix": "node scripts/md-practice.mjs --fix",
+    "md-practice:install-hook": "node scripts/md-practice-install-hook.mjs",
+    "e2e:live": "node scripts/e2e-live-room.mjs",
+    "e2e:lead": "node scripts/e2e-lead-room.mjs"
+  },
+  "dependencies": {
+    "@tiptap/react": "^2.11.5",
+    "@tiptap/starter-kit": "^2.11.5",
+    "aws4fetch": "^1.0.20",
+    "minimatch": "^10.2.5",
+    "nanoid": "^5.1.5",
+    "partykit": "^0.0.111",
+    "partysocket": "^1.1.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "y-partykit": "^0.0.32",
+    "y-prosemirror": "^1.3.4",
+    "yaml": "^2.9.0",
+    "yjs": "^13.6.22",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@aws-sdk/credential-providers": "^3.1087.0",
+    "@testing-library/react": "^16.1.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "fast-check": "^3.23.2",
+    "happy-dom": "^15.11.7",
+    "msw": "^2.7.3",
+    "playwright": "^1.49.1",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7",
+    "vitest": "^2.1.8"
+  }
+}

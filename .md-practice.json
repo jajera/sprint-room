@@ -1,0 +1,32 @@
+{
+  "mode": "fix",
+  "files": "staged",
+  "include": [
+    "**/*.md",
+    "**/*.markdown"
+  ],
+  "exclude": [
+    "**/node_modules/**",
+    "**/.git/**",
+    "**/.partykit/**"
+  ],
+  "failFast": false,
+  "rules": {
+    "trailing-whitespace": { "severity": "error", "fix": true },
+    "consecutive-blank-lines": { "severity": "error", "fix": true, "options": { "max": 1 } },
+    "blanks-around-headings": { "severity": "error", "fix": true },
+    "blanks-around-fences": { "severity": "error", "fix": true },
+    "heading-increment": { "severity": "error", "fix": false },
+    "single-h1": { "severity": "warning", "fix": false, "options": { "required": true } },
+    "line-length": { "severity": "warning", "fix": false, "options": { "max": 120, "ignoreUrls": true } },
+    "list-marker-style": { "severity": "error", "fix": true, "options": { "style": "-" } },
+    "table-column-style": { "severity": "error", "fix": true, "options": { "style": "compact" } },
+    "table-column-count": { "severity": "error", "fix": true },
+    "no-bare-urls": { "severity": "error", "fix": true },
+    "fenced-code-language": {
+      "severity": "error",
+      "fix": true,
+      "options": { "defaultLanguage": "plaintext" }
+    }
+  }
+}
