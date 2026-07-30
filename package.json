@@ -19,10 +19,10 @@
     "e2e:lead": "node scripts/e2e-lead-room.mjs"
   },
   "dependencies": {
-    "@tiptap/react": "^3.27.4",
-    "@tiptap/starter-kit": "^3.27.4",
+    "@tiptap/react": "^3.29.2",
+    "@tiptap/starter-kit": "^3.29.2",
     "aws4fetch": "^1.0.20",
-    "minimatch": "^10.2.5",
+    "minimatch": "^10.2.6",
     "nanoid": "^6.0.0",
     "partykit": "^0.0.115",
     "partysocket": "^1.1.3",
