@@ -19,8 +19,8 @@
     "e2e:lead": "node scripts/e2e-lead-room.mjs"
   },
   "dependencies": {
-    "@tiptap/react": "^3.31.3",
-    "@tiptap/starter-kit": "^3.31.3",
+    "@tiptap/react": "^3.31.4",
+    "@tiptap/starter-kit": "^3.31.4",
     "aws4fetch": "^1.0.20",
     "minimatch": "^10.2.6",
     "nanoid": "^6.0.1",
