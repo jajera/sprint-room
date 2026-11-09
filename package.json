@@ -36,17 +36,17 @@
     "zod": "^4.6.7"
   },
   "devDependencies": {
-    "@aws-sdk/credential-providers": "^3.1160.0",
+    "@aws-sdk/credential-providers": "^3.1163.0",
     "@testing-library/react": "^16.3.3",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
-    "@vitejs/plugin-react": "^6.1.2",
+    "@vitejs/plugin-react": "^6.2.1",
     "fast-check": "^4.10.2",
     "happy-dom": "^21.0.4",
-    "msw": "^3.0.3",
-    "playwright": "^1.64.1",
+    "msw": "^3.0.4",
+    "playwright": "^1.65.0",
     "typescript": "^7.0.2",
-    "vite": "^8.3.5",
-    "vitest": "^5.0.5"
+    "vite": "^8.3.6",
+    "vitest": "^5.1.0"
   }
 }
